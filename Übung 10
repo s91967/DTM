@@ -19,3 +19,14 @@ Projekt-Zeichenkette: +proj=ortho+ lat_0=49.1 + lon_0=31.2 +x_0=0 +y_0=0 +a=6371
 ```
 buffer(make_point(0,0), 6350000, 20)
 ```
+
+7) Einfache Füllung zu Shapeburst Füllung und Farbkontrast wählen - Layerdarstellung - Zeicheneffekte - Sternchen - Äußeres Glühen
+
+8) Weltkarte: Einfache Füllung Farbe und Strichlinie ändern - Layerdarstellung - Hartes Licht
+
+9) refugees line: abgestuft - Symbol:Farbe ändern - refugees u klassifizieren - Layerdarstellung: hartes Licht
+
+10) refugees point: abgestuft - größe ändern - Layerdarstellung: hartes Licht
+```
+optional: Beschriftungen - Country_2
+```
