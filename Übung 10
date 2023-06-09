@@ -1,0 +1,10 @@
+1) Daten aus UNHCR statistic refugees herunterladen
+
+2) QGIS öffnen, Layer hinzufügen (CSV), population, 14 Zeilen überspringen
+
+3) Verknüpfung herstellen zwischen den population data und der Weltkarte, Benutzerfeldnamenpräfix löschen(Hacken setzen)
+
+4) Zentroide - Attributtabelle alles löschen, bis auf die letzten 5 Spalten - NULL Werte löschen - Werkzeug auswählen (Epsylon) --> refugees größer null (vorher speichern) 
+- Feldrechner - X_dest und Y dest - Punkt der Ukraine wählen - gewählte Objekte speichern - neue Attributtabelle mit X und Y Koordinaten - x origin in refugees layer einfügen 
+
+5) Erweiterung shape tool installieren - xy tool -  
