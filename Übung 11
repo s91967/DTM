@@ -1,8 +1,9 @@
-Daten aus Inside Airbnb - data - get the data - listings.csv - reviews.csv - neighbourhoods.geojson - neighbourhoods reinziehen
+## Daten aus Inside Airbnb - data - get the data - listings.csv - reviews.csv - neighbourhoods.geojson - neighbourhoods reinziehen
 
 2) ## csv-Dateien über Layer hinzufügen - getrennte Textdatei - Punktkoordinaten - einfügen
 
-3) ``` 
+3) ## Filter setzen
+``` 
 Punktlayer viermal duplizieren und umbenennen
 entire.dpt - Filter - "room_type" = 'Entire home/apt' AND "price" < 9999 
 private.room - Filter - "room_type" = 'Private room' AND "price" < 9999
@@ -23,4 +24,18 @@ Attribute nach Position verknüpfen (Zusammenfassung) -
 Zentroide, entire.dpt, price, durchschnitt - abgestuft - klassifizieren
 ```
 
-6) 
+6) heatmap für die Punktdaten entire.dpt
+```
+entire.dpt - Eigenschaften- Heatmap - Farbverlauf - Gradiente - eigenen Farbverlauf 
+- doppelklick in die Mitte - Farbe ergänzen - doppelklick ganz links und deckkraft auf null setzen
+```
+
+7) Hintergrund auf schwarz setzen
+Projekt - Eigenschaften - schwarzer Hintergrund
+
+8) Neighbourhoods auflösen
+Geometrieverarbeitungswerkzeuge- auflösen
+
+9) die Stile auf die anderen 3 Parameter kopieren und dort einfügen
+
+10) Neues Drucklayout - Mischmodus
