@@ -1,0 +1,26 @@
+Daten aus Inside Airbnb - data - get the data - listings.csv - reviews.csv - neighbourhoods.geojson - neighbourhoods reinziehen
+
+2) ## csv-Dateien über Layer hinzufügen - getrennte Textdatei - Punktkoordinaten - einfügen
+
+3) ``` 
+Punktlayer viermal duplizieren und umbenennen
+entire.dpt - Filter - "room_type" = 'Entire home/apt' AND "price" < 9999 
+private.room - Filter - "room_type" = 'Private room' AND "price" < 9999
+"room_type" = 'Shared room' AND "price" < 9999
+"room_type" = 'Hotel room' AND "price"  < 9999
+```
+4) ##Erstellen einer Gitterchoropletenkarte
+```
+Forschungswerkzeuge - Gitter - Hexagon, Gitterausdehnung, Aus Layer berechnen, Neighbourhoods
+horizontaler und vertikaler Abstand 866,025 Meter
+```
+
+5) ## abgestufte Gitterchoropletenkarte erstellen:
+```
+Nach Position selektieren - 
+Gitter enthält Zentroide - 
+Attribute nach Position verknüpfen (Zusammenfassung) - 
+Zentroide, entire.dpt, price, durchschnitt - abgestuft - klassifizieren
+```
+
+6) 
