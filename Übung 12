@@ -1,0 +1,22 @@
+1) einführen der kml-Daten der Sternschnuppen in Qgis 
+
+2) Symbolisierung - Einzelsymbol - Symbollayertyp: Einfache Linie --> Pfeil - Pfeileigenschaften auf 0, außer Pfeilbreite auf 0,8 - Zeicheneffekte 
+- äußeres Glühen (spreizen:1, Verwischradius: 0,2)
+
+3) Neues File für den gesamten August herunterladen und anschließend die Stile vom ersten Layer kopieren und dann in den anderen einfügen
+
+4) Eigenschaften - zeitlich - aktivieren - einzelfeld mit datum/zeit - timestamp - Hacken setzen
+
+5) Legende über neuer Temporärlayer - Geometrietyp: Punkt - OK
+'''
+Eigenschaften - Beschriftungen - Einzelne Beschriftungen 
+## Epsylon: 'Sternschnuppen'  ||   '\n'  || format_date(  @map_start_time , 'dd MMMM yyyy')
+Zum verschieben der Schrift, den Punkt der Legende verschieben
+'''
+
+(6. Unter Ansicht - Dekoration - Urheberrechtshinweistext - mein Copyright)
+
+7. csv-Datei importieren und als Punktkoordinaten einführen - Symbolisierung - einzelsymbol - Geometriegenerator - statt Polygon Line setzen
+- Epsylon:  make_line(  $geometry , make_point(  "LonEnd" , "LatEnd" ))
+
+
