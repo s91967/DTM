@@ -1,0 +1,7 @@
+1) herunterladen der Daten der european commission - Winddaten, Temperatur, total - tage und Uhrzeit alles - über bbox finder land auswählen, um ausschnitt einzustellen 
+- Symbolisierung bearbeiten - Farbverläufe für alle drei Layer auswählen - Pfeile
+
+2) aktivieren des Zeitsymbols - Neuer Temporärlayer für time - Beschriftung: 
+'Windbewegung im Mai 2023 '  || format_date( @map_start_time, 'dd. MMMM yyyy')  ||    '\n'  || format_date(  @map_start_time , 'HH:mm') || 'Uhr' - Nullwert bei Niederschlag ohne Farbe 
+
+3) Netz - Netzrechner -  average_aggr (   "2 metre temperature [C]"  ) 
